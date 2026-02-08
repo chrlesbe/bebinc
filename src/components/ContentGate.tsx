@@ -3,6 +3,10 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import type { ReactNode } from "react";
+import {
+  trackContentGateLinkedIn,
+  trackContentGateUnlocked,
+} from "@/lib/analytics";
 
 interface ContentGateProps {
   children: ReactNode;
@@ -57,6 +61,7 @@ export default function ContentGate({ children }: ContentGateProps) {
                   href="https://www.linkedin.com/in/charles-bebin/"
                   target="_blank"
                   rel="noopener noreferrer"
+                  onClick={() => trackContentGateLinkedIn()}
                   className="group inline-flex items-center justify-center gap-2.5 bg-gold px-7 py-3.5 text-sm font-semibold tracking-wide text-navy-deep transition-all duration-300 hover:bg-gold-light hover:shadow-[0_0_32px_rgba(201,169,110,0.25)]"
                 >
                   View on LinkedIn
@@ -77,7 +82,10 @@ export default function ContentGate({ children }: ContentGateProps) {
 
                 {/* Secondary: Reveal on site */}
                 <button
-                  onClick={() => setUnlocked(true)}
+                  onClick={() => {
+                    trackContentGateUnlocked();
+                    setUnlocked(true);
+                  }}
                   className="inline-flex items-center justify-center gap-2 border border-cream/15 px-7 py-3.5 text-sm font-medium tracking-wide text-cream transition-all duration-300 hover:border-cream/40 hover:bg-white/5"
                 >
                   See on Website

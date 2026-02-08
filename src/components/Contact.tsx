@@ -1,22 +1,26 @@
 "use client";
 
 import AnimatedSection from "./AnimatedSection";
+import { trackContactClick } from "@/lib/analytics";
 
 const LINKS = [
   {
     label: "LinkedIn",
     href: "https://www.linkedin.com/in/charles-bebin/",
     external: true,
+    trackAs: "linkedin",
   },
   {
     label: "charles.bebin@gmail.com",
     href: "mailto:charles.bebin@gmail.com",
     external: false,
+    trackAs: "email_gmail",
   },
   {
     label: "charles.bebin@essec.edu",
     href: "mailto:charles.bebin@essec.edu",
     external: false,
+    trackAs: "email_essec",
   },
 ];
 
@@ -24,7 +28,7 @@ export default function Contact() {
   return (
     <section id="contact" className="px-6 pb-16 pt-28 lg:pt-36">
       <div className="mx-auto max-w-4xl">
-        <AnimatedSection>
+        <AnimatedSection trackSection="contact">
           <span className="accent-line" />
           <h2 className="font-display text-3xl text-cream sm:text-4xl">
             Get in Touch
@@ -46,6 +50,7 @@ export default function Contact() {
                 href={link.href}
                 target={link.external ? "_blank" : undefined}
                 rel={link.external ? "noopener noreferrer" : undefined}
+                onClick={() => trackContactClick(link.trackAs)}
                 className="group inline-flex items-center gap-2.5 border border-white/8 px-6 py-3.5 text-sm font-medium text-cream transition-all duration-300 hover:border-gold/30 hover:bg-gold/5 hover:text-gold"
               >
                 {link.label}

@@ -86,7 +86,7 @@ export default function Experience() {
   return (
     <section id="experience" className="px-6 py-28 lg:py-36">
       <div className="mx-auto max-w-4xl">
-        <AnimatedSection>
+        <AnimatedSection trackSection="experience">
           <span className="accent-line" />
           <h2 className="font-display text-3xl text-cream sm:text-4xl">
             Experience

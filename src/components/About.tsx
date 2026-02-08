@@ -13,7 +13,7 @@ export default function About() {
   return (
     <section id="about" className="px-6 py-28 lg:py-36">
       <div className="mx-auto max-w-4xl">
-        <AnimatedSection>
+        <AnimatedSection trackSection="about">
           <span className="accent-line" />
           <h2 className="font-display text-3xl text-cream sm:text-4xl">
             About

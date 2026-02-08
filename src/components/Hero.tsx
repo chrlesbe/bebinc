@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import { trackCtaClick } from "@/lib/analytics";
 
 const STAGGER = 0.12;
 
@@ -59,6 +60,13 @@ export default function Hero() {
             href="https://www.linkedin.com/in/charles-bebin/"
             target="_blank"
             rel="noopener noreferrer"
+            onClick={() =>
+              trackCtaClick({
+                cta_name: "view_linkedin",
+                cta_location: "hero",
+                cta_destination: "linkedin",
+              })
+            }
             className="group inline-flex items-center gap-2.5 bg-gold px-7 py-3.5 text-sm font-semibold tracking-wide text-navy-deep transition-all duration-300 hover:bg-gold-light hover:shadow-[0_0_32px_rgba(201,169,110,0.25)]"
           >
             View LinkedIn
@@ -78,6 +86,13 @@ export default function Hero() {
           </a>
           <a
             href="#contact"
+            onClick={() =>
+              trackCtaClick({
+                cta_name: "get_in_touch",
+                cta_location: "hero",
+                cta_destination: "contact_section",
+              })
+            }
             className="inline-flex items-center gap-2 border border-cream/15 px-7 py-3.5 text-sm font-medium tracking-wide text-cream transition-all duration-300 hover:border-cream/40 hover:bg-white/5"
           >
             Get in Touch

@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import { trackCtaClick } from "@/lib/analytics";
 
 const NAV_LINKS = [
   { label: "About", href: "#about" },
@@ -58,6 +59,13 @@ export default function Navigation() {
                 href="https://www.linkedin.com/in/charles-bebin/"
                 target="_blank"
                 rel="noopener noreferrer"
+                onClick={() =>
+                  trackCtaClick({
+                    cta_name: "linkedin",
+                    cta_location: "navbar",
+                    cta_destination: "linkedin",
+                  })
+                }
                 className="inline-flex items-center gap-2 border border-gold/30 px-5 py-2 text-sm font-medium tracking-wide text-gold transition-all duration-300 hover:border-gold hover:bg-gold/10"
               >
                 LinkedIn
@@ -113,6 +121,13 @@ export default function Navigation() {
               href="https://www.linkedin.com/in/charles-bebin/"
               target="_blank"
               rel="noopener noreferrer"
+              onClick={() =>
+                trackCtaClick({
+                  cta_name: "linkedin",
+                  cta_location: "mobile_menu",
+                  cta_destination: "linkedin",
+                })
+              }
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.32 }}

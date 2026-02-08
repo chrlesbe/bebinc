@@ -19,6 +19,27 @@ Professional landing page for [Charles Bébin](https://www.linkedin.com/in/charl
 - Contact section with email and LinkedIn links
 - Responsive navigation with mobile menu
 - Dark finance-inspired aesthetic (navy, gold, cream)
+- GA4 analytics with decision-grade event tracking
+
+## Analytics
+
+GA4 is integrated with the following events:
+
+| Event | Trigger |
+|-------|---------|
+| `page_view` | Every page load |
+| `cta_clicked` | Any CTA button (LinkedIn, Get in Touch) |
+| `content_gate_linkedin` | "View on LinkedIn" on the paywall gate |
+| `content_gate_unlocked` | "See on Website" on the paywall gate |
+| `section_viewed` | Section scrolls into view (about, experience, education, contact) |
+| `contact_clicked` | Contact link clicked (LinkedIn, email) |
+
+To enable, copy `.env.example` to `.env.local` and add your GA4 Measurement ID:
+
+```bash
+cp .env.example .env.local
+# Edit .env.local with your G-XXXXXXXXXX ID
+```
 
 ## Local Development
 
