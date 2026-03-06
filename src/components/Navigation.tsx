@@ -5,10 +5,11 @@ import { motion, AnimatePresence } from "framer-motion";
 import { trackCtaClick } from "@/lib/analytics";
 
 const NAV_LINKS = [
-  { label: "About", href: "#about" },
-  { label: "Experience", href: "#experience" },
-  { label: "Education", href: "#education" },
-  { label: "Contact", href: "#contact" },
+  { label: "About", href: "/#about" },
+  { label: "Projects", href: "/#projects" },
+  { label: "Experience", href: "/#experience" },
+  { label: "Education", href: "/#education" },
+  { label: "Contact", href: "/#contact" },
 ];
 
 export default function Navigation() {
@@ -27,16 +28,15 @@ export default function Navigation() {
         initial={{ y: -100 }}
         animate={{ y: 0 }}
         transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
-        className={`fixed top-0 left-0 right-0 z-40 transition-all duration-500 ${
-          scrolled
-            ? "bg-navy-deep/90 backdrop-blur-md border-b border-white/5"
-            : "bg-transparent"
-        }`}
+        className={`fixed top-0 left-0 right-0 z-40 transition-all duration-500 ${scrolled
+          ? "bg-navy-deep/90 backdrop-blur-md border-b border-white/5"
+          : "bg-transparent"
+          }`}
       >
         <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-5 lg:px-8">
           {/* Logo */}
           <a
-            href="#"
+            href="/"
             className="font-display text-xl tracking-tight text-cream transition-colors hover:text-gold"
           >
             BebinC
@@ -81,14 +81,12 @@ export default function Navigation() {
             aria-label="Toggle menu"
           >
             <span
-              className={`block h-px w-6 bg-cream transition-all duration-300 ${
-                mobileOpen ? "translate-y-[3.5px] rotate-45" : ""
-              }`}
+              className={`block h-px w-6 bg-cream transition-all duration-300 ${mobileOpen ? "translate-y-[3.5px] rotate-45" : ""
+                }`}
             />
             <span
-              className={`block h-px w-6 bg-cream transition-all duration-300 ${
-                mobileOpen ? "-translate-y-[3.5px] -rotate-45" : ""
-              }`}
+              className={`block h-px w-6 bg-cream transition-all duration-300 ${mobileOpen ? "-translate-y-[3.5px] -rotate-45" : ""
+                }`}
             />
           </button>
         </div>
