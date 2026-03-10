@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { trackCtaClick } from "@/lib/analytics";
+import Link from "next/link";
 
 const NAV_LINKS = [
   { label: "About", href: "/#about" },
@@ -35,12 +36,12 @@ export default function Navigation() {
       >
         <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-5 lg:px-8">
           {/* Logo */}
-          <a
+          <Link
             href="/"
             className="font-display text-xl tracking-tight text-cream transition-colors hover:text-gold"
           >
             BebinC
-          </a>
+          </Link>
 
           {/* Desktop links */}
           <ul className="hidden items-center gap-8 md:flex">

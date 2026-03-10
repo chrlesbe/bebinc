@@ -68,7 +68,7 @@ export default function FinDeskPage() {
                                         Managing personal finances often means jumping between multiple disjointed apps: one for tracking daily coffee runs, another for monitoring stock portfolios, and yet another for budgeting. FinDesk solves this fragmentation by providing a unified, secure dashboard.
                                     </p>
                                     <p>
-                                        I built FinDesk to be the ultimate companion for financial awareness. It doesn't just display numbers; it actively generates <strong>insights using Groq's extremely fast LLMs</strong> to summarize spending habits and highlight anomalies in real time.
+                                        I built FinDesk to be the ultimate companion for financial awareness. It doesn&apos;t just display numbers; it actively generates <strong>insights using Groq&apos;s extremely fast LLMs</strong> to summarize spending habits and highlight anomalies in real time.
                                     </p>
                                 </div>
                             </div>
