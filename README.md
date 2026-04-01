@@ -8,6 +8,7 @@ Professional landing page for [Charles Bébin](https://www.linkedin.com/in/charl
 - **TypeScript**
 - **Tailwind CSS 4**
 - **Framer Motion**
+- **@microsoft/clarity** (optional behavioral analytics)
 
 ## Features
 
@@ -20,8 +21,11 @@ Professional landing page for [Charles Bébin](https://www.linkedin.com/in/charl
 - Responsive navigation with mobile menu
 - Dark finance-inspired aesthetic (navy, gold, cream)
 - GA4 analytics with decision-grade event tracking
+- [Microsoft Clarity](https://clarity.microsoft.com/) (heatmaps, session replays) via [`@microsoft/clarity`](https://www.npmjs.com/package/@microsoft/clarity)
 
 ## Analytics
+
+### Google Analytics 4
 
 GA4 is integrated with the following events:
 
@@ -34,11 +38,15 @@ GA4 is integrated with the following events:
 | `section_viewed` | Section scrolls into view (about, experience, education, contact) |
 | `contact_clicked` | Contact link clicked (LinkedIn, email) |
 
-To enable, copy `.env.example` to `.env.local` and add your GA4 Measurement ID:
+To enable GA4, copy `.env.example` to `.env.local` and add your Measurement ID (`G-XXXXXXXXXX`).
+
+### Microsoft Clarity
+
+Clarity loads when `NEXT_PUBLIC_CLARITY_PROJECT_ID` is set. Create a project at [clarity.microsoft.com](https://clarity.microsoft.com/), then copy the **Project ID** from **Settings → Overview**.
 
 ```bash
 cp .env.example .env.local
-# Edit .env.local with your G-XXXXXXXXXX ID
+# Edit .env.local: NEXT_PUBLIC_GA_ID and/or NEXT_PUBLIC_CLARITY_PROJECT_ID
 ```
 
 ## Local Development

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Playfair_Display, Plus_Jakarta_Sans } from "next/font/google";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
+import MicrosoftClarity from "@/components/MicrosoftClarity";
 import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
@@ -63,6 +64,7 @@ export default function RootLayout({
         className={`${playfair.variable} ${jakarta.variable} noise-overlay`}
       >
         <GoogleAnalytics />
+        <MicrosoftClarity />
         {children}
         <Analytics />
       </body>
