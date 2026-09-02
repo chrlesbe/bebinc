@@ -5,7 +5,7 @@ import AnimatedSection from "./AnimatedSection";
 const HIGHLIGHTS = [
   { label: "Based in", value: "Singapore" },
   { label: "Studying at", value: "ESSEC Business School" },
-  { label: "Recognition", value: "Dean's List (Top 6%)" },
+  { label: "Recognition", value: "Dean's List, S1 & S2" },
   { label: "Focus", value: "Finance & Economics" },
   { label: "Available for", value: "Internships & Projects" },
 ];

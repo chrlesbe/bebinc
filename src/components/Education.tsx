@@ -22,7 +22,7 @@ const SCHOOLS: School[] = [
       "Financial Accounting, Mathematics, Microeconomics, Statistics, Data Analysis",
     activities:
       "ECE (ESSEC Club of Economics), President of ESSEC Singapore Basketball Association, Finance Society, Badminton, Padel",
-    note: "#1 four-year BBA program in France (Le Point, L'Étudiant, Challenges) · Dean's List, Semester 1: 50th of 841 (Top 6%)",
+    note: "#1 four-year BBA program in France (Le Point, L'Étudiant, Challenges) · Dean's List, Semester 1: 50th of 841 (Top 6%) · Semester 2: 52nd",
   },
 ];
 
