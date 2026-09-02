@@ -38,17 +38,14 @@ const ROLES: Role[] = [
     skills: ["Financial Analysis", "Research", "Financial Accounting"],
   },
   {
-    title: "Sales Assistant",
-    company: "The Lunar Rabbit Boulangerie",
+    title: "Academic Tutor",
+    company: "Inspired Academy",
     type: "Part-time",
-    period: "Oct 2025 - Present",
+    period: "Feb 2026 - Present",
     location: "Singapore · On-site",
     bullets: [
-      "Provided exceptional customer service in a high-traffic retail environment.",
-      "Managed cash transactions and point-of-sale operations with accuracy.",
-      "Executed closing tasks while upholding high service standards.",
+      "Provided personalized 1-to-1 tuition for primary and lower-secondary students, adhering to the French syllabus.",
     ],
-    skills: ["Customer Service", "Time Management", "Operations"],
   },
   {
     title: "Independent Contractor",
@@ -67,6 +64,19 @@ const ROLES: Role[] = [
       "Content Strategy",
       "Automation",
     ],
+  },
+  {
+    title: "Sales Assistant",
+    company: "The Lunar Rabbit Boulangerie",
+    type: "Part-time",
+    period: "Oct 2025 - Feb 2026",
+    location: "Singapore · On-site",
+    bullets: [
+      "Provided exceptional customer service in a high-traffic retail environment.",
+      "Managed cash transactions and point-of-sale operations with accuracy.",
+      "Executed closing tasks while upholding high service standards.",
+    ],
+    skills: ["Customer Service", "Time Management", "Operations"],
   },
   {
     title: "Construction Assistant",
