@@ -17,7 +17,7 @@ const ROLES: Role[] = [
     title: "President",
     company: "ESSEC Singapore Basketball Association",
     type: "",
-    period: "2026 — Present",
+    period: "2026 - Present",
     location: "Singapore · On-site",
     bullets: [
       "Leading the association's operations, events, and team representation on the Asia-Pacific campus.",
@@ -27,9 +27,9 @@ const ROLES: Role[] = [
   },
   {
     title: "Financial Analyst",
-    company: "ECE — ESSEC Club of Economics",
+    company: "ECE (ESSEC Club of Economics)",
     type: "",
-    period: "Jan 2026 — Present",
+    period: "Jan 2026 - Present",
     location: "Singapore · On-site",
     bullets: [
       "Financial Analysis & Research within ESSEC's leading economics club.",
@@ -41,7 +41,7 @@ const ROLES: Role[] = [
     title: "Sales Assistant",
     company: "The Lunar Rabbit Boulangerie",
     type: "Part-time",
-    period: "Oct 2025 — Present",
+    period: "Oct 2025 - Present",
     location: "Singapore · On-site",
     bullets: [
       "Provided exceptional customer service in a high-traffic retail environment.",
@@ -54,11 +54,11 @@ const ROLES: Role[] = [
     title: "Independent Contractor",
     company: "Freelance",
     type: "Remote",
-    period: "Jun 2022 — Present",
+    period: "Jun 2022 - Present",
     location: "Remote",
     bullets: [
       "Delivered high-quality digital content using Adobe Creative Suite.",
-      "Designed content growth strategies — 25,000+ engaged followers.",
+      "Designed content growth strategies that grew an audience to 25,000+ engaged followers.",
       "Developed responsive websites and custom automation tools, enhancing client efficiency by up to 30%.",
     ],
     skills: [
@@ -72,7 +72,7 @@ const ROLES: Role[] = [
     title: "Construction Assistant",
     company: "Actual Group",
     type: "Contract",
-    period: "Jul 2025 — Aug 2025",
+    period: "Jul 2025 - Aug 2025",
     location: "Toulouse, France · On-site",
     bullets: [
       "Collaborated with a dedicated team in a fast-paced construction environment.",
@@ -83,10 +83,10 @@ const ROLES: Role[] = [
     title: "Founder & Project Manager",
     company: "Multiplayer Server Development",
     type: "Self-employed",
-    period: "Jan 2021 — Aug 2025",
+    period: "Jan 2021 - Aug 2025",
     location: "France · Remote",
     bullets: [
-      "Founded and scaled multiplayer roleplay servers — 10,000+ users.",
+      "Founded and scaled multiplayer roleplay servers to 10,000+ users.",
       "Designed back-end systems and front-end interfaces using Lua, JavaScript, and MySQL.",
       "Led community management and monetization strategies for sustainable growth.",
     ],

@@ -16,7 +16,7 @@ const SCHOOLS: School[] = [
   {
     name: "ESSEC Business School",
     degree: "Bachelor of Business Administration (BBA)",
-    period: "2025 — 2029",
+    period: "2025 - 2029",
     grade: "16.03 / 20.00",
     coursework:
       "Financial Accounting, Mathematics, Microeconomics, Statistics, Data Analysis",

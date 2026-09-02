@@ -25,8 +25,8 @@ export default function About() {
           <p className="mt-8 max-w-2xl text-base font-light leading-[1.8] text-cream-muted sm:text-lg">
             Global BBA Student at ESSEC Business School (Asia-Pacific Campus). I
             am an ambitious and curious student driven by a genuine desire to
-            learn and continuously improve. My academic journey — from French
-            secondary education to ESSEC&apos;s Global BBA — has shaped a
+            learn and continuously improve. My academic journey, from French
+            secondary education to ESSEC&apos;s Global BBA, has shaped a
             mindset grounded in discipline, adaptability, and an eagerness to
             take on new challenges.
           </p>

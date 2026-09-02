@@ -22,7 +22,7 @@ const jakarta = Plus_Jakarta_Sans({
 export const metadata: Metadata = {
   title: "Charles Bébin | Financial Analyst & ESSEC BBA",
   description:
-    "Charles Bébin — Financial Analyst at ECE (ESSEC Club of Economics). Two-time Dean's List student in the Global BBA at ESSEC Business School, Singapore. Available for internships and collaborative projects in finance.",
+    "Charles Bébin is a Financial Analyst at ECE (ESSEC Club of Economics) and a two-time Dean's List student in the Global BBA at ESSEC Business School, Singapore. Available for internships and collaborative projects in finance.",
   keywords: [
     "Charles Bébin",
     "Financial Analyst",
