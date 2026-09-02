@@ -5,7 +5,7 @@ import AnimatedSection from "./AnimatedSection";
 const HIGHLIGHTS = [
   { label: "Based in", value: "Singapore" },
   { label: "Studying at", value: "ESSEC Business School" },
-  { label: "Recognition", value: "Dean's List — Top 6%" },
+  { label: "Recognition", value: "Dean's List (Top 6%)" },
   { label: "Focus", value: "Finance & Economics" },
   { label: "Available for", value: "Internships & Projects" },
 ];
@@ -35,10 +35,10 @@ export default function About() {
         <AnimatedSection delay={0.2}>
           <p className="mt-6 max-w-2xl text-base font-light leading-[1.8] text-cream-muted sm:text-lg">
             As President of the ESSEC Singapore Basketball Association, I
-            lead the association&apos;s operations and team representation on
-            campus — building on a long-time background as a competitive
-            basketball player that shaped my resilience and ability to work
-            effectively within a group.
+            lead the association&apos;s operations and represent the team on
+            campus. It builds on a long-time background as a competitive
+            basketball player, which shaped my resilience and my ability to
+            work effectively within a group.
           </p>
         </AnimatedSection>
 

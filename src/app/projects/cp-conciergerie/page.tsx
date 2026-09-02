@@ -65,10 +65,10 @@ export default function CPConciergeriePage() {
                                 <h2 className="font-display text-2xl text-cream">Overview</h2>
                                 <div className="space-y-4 text-cream-muted font-light leading-relaxed">
                                     <p>
-                                        C&amp;P Conciergerie manages Airbnb and Booking.com listings for property owners around Vendôme, in the Loire Valley. Their biggest hurdle wasn&apos;t service quality — it was getting a hesitant property owner from &quot;curious&quot; to &quot;convinced&quot; without a phone call.
+                                        C&amp;P Conciergerie manages Airbnb and Booking.com listings for property owners around Vendôme, in the Loire Valley. Most visitors landing on the site are property owners who are curious but not yet convinced, and the site&apos;s job is to get them there without a phone call.
                                     </p>
                                     <p>
-                                        I designed and built the site to close that gap: a fast, statically-generated Eleventy site with an <strong>interactive revenue simulator</strong> that estimates a property&apos;s monthly income from just its location, type, and size, dedicated pages for each service area to capture local search, and a lead form wired straight to a serverless contact endpoint. I&apos;m now rebuilding it as a Next.js + Appwrite platform with a dedicated dashboard for owners to track their own bookings and revenue.
+                                        I built the site with Eleventy for speed, with an <strong>interactive revenue simulator</strong> as the centerpiece: it estimates a property&apos;s monthly income from its location, type, and size. Each service town also gets its own page for local search, and the lead form posts straight to a serverless contact endpoint. I&apos;m now rebuilding it as a Next.js and Appwrite platform, with a dashboard where owners can track their own bookings and revenue.
                                     </p>
                                 </div>
                             </div>
@@ -142,7 +142,7 @@ export default function CPConciergeriePage() {
                                     </div>
                                     <h3 className="mb-2 text-lg font-medium text-cream">Live Revenue Simulator</h3>
                                     <p className="text-sm font-light text-cream-muted leading-relaxed">
-                                        Built an interactive calculator that estimates monthly rental income in real time as a visitor adjusts property type, location, and room count — turning a cold visitor into a qualified lead before they ever pick up the phone.
+                                        Built an interactive calculator that estimates monthly rental income in real time as a visitor adjusts property type, location, and room count. Most visitors qualify themselves as leads before they ever pick up the phone.
                                     </p>
                                 </div>
 
@@ -168,7 +168,7 @@ export default function CPConciergeriePage() {
                                     </div>
                                     <h3 className="mb-2 text-lg font-medium text-cream">Privacy-First Monitoring</h3>
                                     <p className="text-sm font-light text-cream-muted leading-relaxed">
-                                        Self-hosted the Sentry error-monitoring bundle instead of a third-party loader script, and built a custom consent flow so analytics only load after explicit visitor opt-in — keeping the site compliant by design.
+                                        Self-hosted the Sentry error-monitoring bundle instead of a third-party loader script, and built a custom consent flow so analytics only load after explicit visitor opt-in.
                                     </p>
                                 </div>
 

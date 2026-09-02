@@ -37,7 +37,7 @@ export default function Projects() {
                                         </p>
 
                                         <p className="text-base font-light leading-relaxed text-cream-muted">
-                                            A marketing and lead-generation website for an Airbnb &amp; Booking property management concierge in Vendôme, France, featuring a live revenue simulator and dynamic pricing showcase. Currently rebuilding as a Next.js + Appwrite platform with a dedicated owner dashboard.
+                                            A marketing and lead-generation website for an Airbnb &amp; Booking property management concierge in Vendôme, France, with a live revenue simulator and a dynamic pricing calendar. Currently rebuilding as a Next.js + Appwrite platform with a dedicated owner dashboard.
                                         </p>
 
                                         <div className="pt-4 flex flex-col sm:flex-row items-start sm:items-center gap-6">
