@@ -21,16 +21,8 @@ const SCHOOLS: School[] = [
     coursework:
       "Financial Accounting, Mathematics, Microeconomics, Statistics, Data Analysis",
     activities:
-      "ECE (ESSEC Club of Economics), Finance Society, Basketball, Badminton, Padel",
-    note: "#1 four-year BBA program in France (Le Point, L'Étudiant, Challenges)",
-  },
-  {
-    name: "Lycée Jean-Pierre Vernant",
-    degree: "French Baccalauréat",
-    period: "Sep 2022 — Jul 2025",
-    grade: "Mathematics: 18 · Economic and Social Sciences: 17",
-    activities:
-      "Class Delegate, Member of the School Committee, Volunteer for school events",
+      "ECE (ESSEC Club of Economics), President of ESSEC Singapore Basketball Association, Finance Society, Badminton, Padel",
+    note: "#1 four-year BBA program in France (Le Point, L'Étudiant, Challenges) · Dean's List, Semester 1 — 50th of 841 (Top 6%)",
   },
 ];
 
@@ -45,7 +37,7 @@ export default function Education() {
           </h2>
         </AnimatedSection>
 
-        <div className="mt-14 grid gap-6 sm:grid-cols-2">
+        <div className="mt-14 grid gap-6 sm:max-w-xl">
           {SCHOOLS.map((school, i) => (
             <AnimatedSection key={school.name} delay={i * 0.12}>
               <article className="group h-full border border-white/5 bg-navy/30 p-7 transition-all duration-300 hover:border-gold/15 hover:bg-navy-light/20">

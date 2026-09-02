@@ -19,7 +19,7 @@ export default function Hero() {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="mb-6 text-xs font-medium uppercase tracking-[0.3em] text-cream-muted"
         >
-          Financial Analyst &middot; ESSEC Business School
+          Financial Analyst, ECE &middot; Dean&apos;s List, ESSEC
         </motion.p>
 
         {/* Name */}

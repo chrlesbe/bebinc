@@ -22,7 +22,7 @@ const jakarta = Plus_Jakarta_Sans({
 export const metadata: Metadata = {
   title: "Charles Bébin | Financial Analyst & ESSEC BBA",
   description:
-    "Charles Bébin — Financial Analyst at ECE (ESSEC Club of Economics). Global BBA student at ESSEC Business School, Singapore. Available for internships and collaborative projects in finance.",
+    "Charles Bébin — Financial Analyst at ECE (ESSEC Club of Economics). Dean's List student (Top 6%) in the Global BBA at ESSEC Business School, Singapore. Available for internships and collaborative projects in finance.",
   keywords: [
     "Charles Bébin",
     "Financial Analyst",
@@ -30,12 +30,13 @@ export const metadata: Metadata = {
     "BBA",
     "Finance",
     "Singapore",
+    "Dean's List",
   ],
   authors: [{ name: "Charles Bébin" }],
   openGraph: {
     title: "Charles Bébin | Financial Analyst & ESSEC BBA",
     description:
-      "Financial Analyst at ECE | Global BBA at ESSEC Business School, Singapore.",
+      "Financial Analyst at ECE | Dean's List (Top 6%), Global BBA at ESSEC Business School, Singapore.",
     url: "https://bebinc.com",
     siteName: "BebinC",
     locale: "en_US",
@@ -45,7 +46,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Charles Bébin | Financial Analyst & ESSEC BBA",
     description:
-      "Financial Analyst at ECE | Global BBA at ESSEC Business School, Singapore.",
+      "Financial Analyst at ECE | Dean's List (Top 6%), Global BBA at ESSEC Business School, Singapore.",
   },
   robots: {
     index: true,

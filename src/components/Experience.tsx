@@ -14,6 +14,18 @@ interface Role {
 
 const ROLES: Role[] = [
   {
+    title: "President",
+    company: "ESSEC Singapore Basketball Association",
+    type: "",
+    period: "2026 — Present",
+    location: "Singapore · On-site",
+    bullets: [
+      "Leading the association's operations, events, and team representation on the Asia-Pacific campus.",
+      "Building on a long-time background as a competitive basketball player.",
+    ],
+    skills: ["Leadership", "Team Management", "Event Organization"],
+  },
+  {
     title: "Financial Analyst",
     company: "ECE — ESSEC Club of Economics",
     type: "",
