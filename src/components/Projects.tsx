@@ -28,16 +28,16 @@ export default function Projects() {
                                                 C&amp;P Conciergerie
                                             </h3>
                                             <span className="rounded-full border border-gold/30 bg-gold/10 px-2.5 py-0.5 text-xs font-medium text-gold">
-                                                Client Website
+                                                Client Platform
                                             </span>
                                         </div>
 
                                         <p className="text-sm font-medium text-gold/80">
-                                            Eleventy · Vercel · Next.js (v2 in development) · Appwrite
+                                            Next.js 16 · React 19 · Appwrite · Tailwind CSS 4 · Vercel
                                         </p>
 
                                         <p className="text-base font-light leading-relaxed text-cream-muted">
-                                            A marketing and lead-generation website for an Airbnb &amp; Booking property management concierge in Vendôme, France, with a live revenue simulator and a dynamic pricing calendar. Currently rebuilding as a Next.js + Appwrite platform with a dedicated owner dashboard.
+                                            A two-app platform for an Airbnb &amp; Booking property management concierge in Vendôme, France. The public site converts owners with a live revenue simulator; a private operations panel gives the gérants a lead pipeline, a planning view and a two-way email thread on every lead.
                                         </p>
 
                                         <div className="pt-4 flex flex-col sm:flex-row items-start sm:items-center gap-6">
